@@ -1,0 +1,136 @@
+body{
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+
+.bio{
+    border: solid;
+    display: inline-block;
+    border-radius: 32px;    
+    box-shadow: 5px 10px 15px black;
+    width: 170px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+
+.edu{
+    border: solid;
+    display: inline-block;
+    border-radius: 32px;
+    box-shadow: 5px 10px 15px black;
+    width: 900px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    transform: translateX(-80px);
+}
+
+.whole{
+    width: 1000px;
+    height: 1500px;
+    border: solid black;
+    border-radius: 32px;
+    box-shadow: 5px 10px 15px black;
+    padding: 100px;
+    margin-bottom: 100px;
+    background-color: cornsilk;
+}
+
+.container{
+    width: 900px;
+    display: inline-block;
+    border: solid black;
+    border-radius: 32px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 10px 15px black;
+    padding: 1px;
+    transform: translateX(-80px);
+    text-align: center;
+    margin-top: -50%;   
+    margin-bottom: 20px;
+}
+
+.h3{
+    display: inline-block;
+    flex-direction: column;
+    text-align: left;
+    width: 200%;
+    margin-top: 10px;
+    text-align: left;
+    transform: translateX(-20px);
+    
+}
+
+input[type="text"], [type="date"]{ 
+    padding: 3px;
+    width: 500px;
+    border-radius: 32px;
+    box-shadow: 2px 4px 6px black;
+    border-bottom: 2px black;
+    color: black;
+
+}
+label{
+    display: flex;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.p{
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    border: solid cornsilk;
+    border-radius: 32px;
+    margin-top: 20px;
+    transform: translateX(-20px);
+    font-size: large;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.sig{
+    width: 300px;
+    height: 50px;
+    border: solid cornsilk;
+    border-radius: 32px;
+    transform: translateX(370px);
+    margin-top: -140px;
+
+}
+
+.dt{
+    width: 300px;
+    height: 50px;
+    border: solid cornsilk;
+    border-radius: 32px;
+    transform: translateX(-350px);
+    margin-top: -120px;
+}
+.pl{
+    width: 300px;
+    height: 50px;
+    border: solid cornsilk;
+    border-radius: 32px;
+    transform: translateX(-350px);
+    margin-top: -10px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    border-radius: 32px;
+    margin-right: -70%;
+    box-shadow: 2px 4px 6px black;
+    transform: translateY(-1300px);
+}
+.hs{
+    margin-right: 150%;
+    width: 200px;
+    transform: translateY(-50px);
+}
